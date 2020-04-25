@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="events">Events</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="new_here_click_here_to_register">new here? click here to register.....</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="emali">Emali</string>
+    <string name="phonenumber">Phonenumber</string>
+    <string name="i_agree_to_the_terms_of_service">I Agree to The Terms of Service</string>
+    <string name="register">Register</string>
+    <string name="already_a_member_login_here">Already a Member? Login here</string>
+    <string name="signup">SignUp</string>
+    <string name="logout">Logout</string>
+    <string name="lounge">Lounge</string>
+    <string name="restaourant">Restaourant</string>
+    <string name="restourant" />
+    <string name="cafe">Cafe</string>
+</resources>

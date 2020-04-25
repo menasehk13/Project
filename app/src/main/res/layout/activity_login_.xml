@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="355dp"
+        android:layout_height="242dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wedetlog"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="65dp"
+    android:layout_marginLeft="65dp"
+    android:layout_marginTop="245dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/tp1">
+<EditText
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hint="@string/username"
+    android:id="@+id/username"
+    android:inputType="text"
+    android:importantForAutofill="no"
+    />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="65dp">
+
+        <EditText
+            android:id="@+id/password"
+            android:textColor="@color/colorProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/buttonselector"
+        android:text="@string/login"
+        android:textColor="#919191"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:focusedByDefault="true"
+        android:linksClickable="true"
+        android:text="@string/new_here_click_here_to_register"
+        android:textColor="@color/colorProgressBar"
+        android:textColorLink="@color/colorPrimary"
+        tools:targetApi="o" />
+</RelativeLayout>
