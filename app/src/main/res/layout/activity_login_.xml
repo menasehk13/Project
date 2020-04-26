@@ -18,23 +18,29 @@
     <com.google.android.material.textfield.TextInputLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+        android:weightSum="1"
     android:layout_marginRight="65dp"
     android:layout_marginLeft="65dp"
     android:layout_marginTop="245dp"
     android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_shape"
     android:id="@+id/tp1">
 <EditText
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:hint="@string/username"
+android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp"
     android:drawableStart="@drawable/ic_user"
     android:drawableLeft="@drawable/ic_user"
     android:drawablePadding="5dp"
     android:id="@+id/username"
     android:inputType="text"
     android:importantForAutofill="no"
-    />
+    android:paddingStart="12dp"
+    android:layout_marginStart="13dp"
+    android:layout_marginEnd="17dp"
+    android:paddingLeft="12dp" />
 
 </com.google.android.material.textfield.TextInputLayout>
 
@@ -45,14 +51,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="65dp"
         android:layout_marginTop="9dp"
-        android:layout_marginRight="65dp">
+        android:layout_marginRight="65dp"
+        android:background="@drawable/edit_text_shape">
 
         <EditText
             android:id="@+id/password"
             android:textColor="@color/colorProgressBar"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:hint="@string/password"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
             android:textColorHint="@android:color/secondary_text_light"
             android:drawableStart="@drawable/ic_password"
             android:drawableLeft="@drawable/ic_password"
@@ -66,13 +75,15 @@
 
     <Button
         android:id="@+id/login"
+        android:shadowRadius="32dp"
         android:layout_width="199dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="450dp"
-        android:background="@drawable/buttonselector"
+        android:background="@drawable/edit_text_shape"
         android:text="@string/login"
+        android:backgroundTint="@color/colorPrimary"
         android:textColor="#919191"
         android:textSize="22sp"
         android:textStyle="bold"
